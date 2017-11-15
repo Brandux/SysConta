@@ -67,7 +67,7 @@ public class HomeController {
 			pagina = "home";
 		}
 		else {
-			pagina = "menu";
+			pagina = "index";
 		}
 		return pagina;
 	}
@@ -89,7 +89,7 @@ public class HomeController {
 	
 	@GetMapping("home")
 	public String home() {
-		String pagina = "index";
+		String pagina = "home";
 		return pagina;
 	}
 	
