@@ -49,6 +49,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 
 			if (!password.equals(user.getPassword())) {
 				System.out.println("contraseña incorrecta");
+				System.out.println(user.getPassword());
 				throw new BadCredentialsException("Wrong password.");
 			} else {
 				Collection<? extends GrantedAuthority> authorities = user.getAuthorities();
