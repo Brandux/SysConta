@@ -89,7 +89,7 @@ public class HomeController {
 	
 	@GetMapping("home")
 	public String home() {
-		String pagina = "home";
+		String pagina = "index";
 		return pagina;
 	}
 	
