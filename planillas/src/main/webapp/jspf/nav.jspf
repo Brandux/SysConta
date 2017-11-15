@@ -19,7 +19,7 @@
 								<li class="divider"></li>
 								<li><a href="#"><i class="mdi-action-lock-outline"></i>
 										Lock</a></li>
-								<li><a href="#"><i class="mdi-hardware-keyboard-tab"></i>
+								<li><a href="logout"><i class="mdi-hardware-keyboard-tab"></i>
 										Logout</a></li>
 							</ul>
 							<a
