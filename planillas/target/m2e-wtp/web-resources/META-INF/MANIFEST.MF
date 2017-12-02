@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: Didier
-Build-Jdk: 1.8.0_144
+Built-By: Brandux
+Build-Jdk: 1.8.0_102
 Created-By: Maven Integration for Eclipse
 
